@@ -1,0 +1,113 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+.Faqmaindiv{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    margin-top: -15rem;
+    overflow-x: hidden;
+    padding-bottom: 10%;
+}
+
+.mAINHEADING{
+    color: #fff;
+    font-size: 59px;
+    text-align: center;
+}
+.mainheadingtext{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Accordiontextbody{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important;
+    
+}
+.bodytext{
+    font-size: 22px !important;
+
+}
+
+.AccodionHeadertext{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 24px !important;
+}
+.AccodionHeadertext:hover{
+    border-bottom: #fff 1px solid;
+    color: #fff;
+
+}
+.AccodionHeadertext :active{
+    color: #ffff33;
+    /* text-decoration: #ffa05f; */
+
+}
+.innerdiv{
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 10%;
+}
+
+@media (min-width:481px) and (max-width:3000px) {
+
+    .Faqmaindiv{
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        margin-top: 0rem;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:480px) {
+    .innerdiv{
+        width: 90%;
+        margin-left: 15px !important;
+        margin-top: 3rem;
+       
+        
+    }
+    .Faqmaindiv{
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        margin-top: 0rem;
+    }
+
+    
+.mAINHEADING{
+   
+    font-size: 40px;
+    text-align: center;
+}
+.mainheadingtext{
+    color: #ffffff;
+   
+    font-size: 16px;
+    text-align: center;
+}
+
+.Accordiontextbody{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important;
+    
+}
+.bodytext{
+    font-size: 16px !important;
+
+}
+
+.AccodionHeadertext{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 18px !important;
+}
+
+    
+}

@@ -13,14 +13,19 @@
     color: #fff;
     padding: 20px;
     margin: 10%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .Shows h1{
     font-size: 50px;
+    text-align: left;
 }
 
 .Shows p{
     font-size: 20px;
+    text-align: left;
 }
 
 .video-container{
@@ -31,14 +36,17 @@
     width: 600px;
 }
 
-button{
+.btn{
     font-size: 20px;
     padding: 10px;
     margin: 10px 0;
     background: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #fdd300;
+    border: 1px solid #fdd300;
+    display: flex;
 }
+
+
 
 button:hover{
     padding: 10px 20px;
@@ -73,3 +81,25 @@ button:hover{
         width: 300px;
     }
 }
+
+@media (max-width: 1400px) {
+    .video-container video {
+        width: 300px;
+    }
+
+    .Shows h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .Shows p{
+        text-align: center;
+    }
+
+    .Shows{
+        align-items: center;
+    }
+
+
+}
+

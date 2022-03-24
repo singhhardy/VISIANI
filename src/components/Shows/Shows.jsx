@@ -1,4 +1,4 @@
-import './Shows.css'
+import './Shows.css';
 
 function Shows() {
   return (
@@ -13,7 +13,7 @@ function Shows() {
                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                  ullamco laboris nisi ut aliquip ex ea commodo consequat
             </p>
-            <a href='#'><button>Watch Now</button></a>
+            <a href='/Tv'><button class="btn">Watch Now</button></a>
           </div>
         </div>
       </div>

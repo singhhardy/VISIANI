@@ -1,4 +1,4 @@
-.show-container{
+.Movie-container{
     display: flex;
     flex-direction: row;
     background: #000;
@@ -9,35 +9,41 @@
     padding: 20% 5%;
 }
 
-.Shows{
+.Movie{
     color: #fff;
-    padding: 20px;
     margin: 10%;
+    display: flex;
+    flex-direction: column;
 }
 
-.Shows h1{
+.Movie h1{
     font-size: 50px;
+    text-align: right;
+    text-transform: uppercase;
 }
 
-.Shows p{
+.Movie p{
     font-size: 20px;
+    text-align: right;
 }
 
-.video-container{
+.Movievideo-container{
     border: 1px solid #fff;
 }
 
-.video-container video{
+.Movievideo-container video{
     width: 600px;
 }
 
-button{
+.btn1{
     font-size: 20px;
     padding: 10px;
     margin: 10px 0;
     background: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #fdd300;
+    border: 1px solid #fdd300;
+    display: flex;
+    float: right;
 }
 
 button:hover{
@@ -46,20 +52,20 @@ button:hover{
 }
 
 @media (max-width: 991px) {
-    .show-container{
+    .Movie-container{
         flex-direction: column;
         height: 800px;
     }
 
-    .video-container video{
+    .Movievideo-container video{
         width: 400px;
     }
 
-    .Shows {
+    .Movie {
         text-align: center;
     }
 
-    .Shows h1{
+    .Movie h1{
         font-size: 50px;
         padding-bottom: 20px;
 
@@ -68,8 +74,23 @@ button:hover{
 }
 
 
-@media (max-width: 720px) {
-    .video-container video {
+@media (max-width: 1400px) {
+    .Movievideo-container video {
         width: 300px;
     }
+
+    .Movie{
+        align-items: center;
+    }
+
+
+    .Movie h1{
+        text-align: center;
+    }
+
+    .btn1{
+        float: none;
+        align-items: center;
+    }
 }
+

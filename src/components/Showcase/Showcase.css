@@ -33,19 +33,20 @@
   width: 100%;
   height: 100%;
   mix-blend-mode: overlay;
-  background: rgba(177, 145, 2, 0.301);
+  background: rgba(177, 101, 2, 0.301);
 }
 .text
 {
   position: relative;
   z-index: 10;
+  text-align: left;
 }
 
 .text h2
 {
   font-size: 4em;
   font-weight: 800;
-  color: #fff;
+  color: #fdd300;
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -53,9 +54,10 @@
 {
   font-size: 4em;
   font-weight: 700;
-  color: #fff;
+  color: #fdd300;
   line-height: 1em;
   text-transform: uppercase;
+  text-align: left;
 }
 .text p
 {
@@ -75,8 +77,8 @@
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #fdd300;
+  border: 1px solid #fdd300;
   letter-spacing: 2px;
   transition: 0.2s;
 }
@@ -114,7 +116,7 @@
 
 
 
-@media (max-width: 991px)
+@media (max-width: 1200px)
 {
   .showcase,
   .showcase 
@@ -124,6 +126,7 @@
   .text h2
   {
     font-size: 3em;
+    text-align: left;
   }
   .text h3
   {

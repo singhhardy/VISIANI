@@ -24,7 +24,7 @@ function Footer() {
 					<a href="#">Contact</a>
 				</p>
 
-				<p class="footer-company-name">Company Name © 2015</p>
+				<p class="footer-company-name">VISIANI © 2022</p>
 			</div>
 
 			<div class="footer-center">

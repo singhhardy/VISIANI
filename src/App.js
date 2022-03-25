@@ -22,11 +22,11 @@ function App() {
       <div className='content'>
         <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/Tv' exact  component={Tv} />
-        <Route path='/Shop' exact component={Shop} />
-        <Route path='/Services' exact component={Services} />
-        <Route path='/About' exact component={About} />
-        <Route path='/Contact' exact component={About} />
+        <Route path='/Tv'  component={Tv} />
+        <Route path='/Shop'  component={Shop} />
+        <Route path='/Services'  component={Services} />
+        <Route path='/About'  component={About} />
+        <Route path='/Contact'  component={About} />
         </Switch>
       </div>
     </div>
@@ -34,5 +34,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

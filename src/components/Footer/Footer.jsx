@@ -8,7 +8,7 @@ function Footer() {
 
 			<div class="footer-left">
 
-				<h3 class="logo"><img src='./Yellow Visiani Logo.png'></img>VISIANI</h3>
+				<h3 class="logo"><img src='./Yellow Visiani Logo.png' width="50px"></img>VISIANI</h3>
 
 				<p class="footer-links">
 					<a href="#" class="link-1">Home</a>

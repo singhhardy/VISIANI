@@ -23,6 +23,7 @@
 
 .footer-distributed .footer-left{
 	width: 40%;
+	text-align: center;
 }
 
 /* The company logo */
@@ -38,6 +39,7 @@
     font-weight: bold;
     padding-top: -5px;
 }
+
 
 /* Footer links */
 

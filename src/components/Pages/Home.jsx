@@ -17,7 +17,6 @@ function Home() {
     <Showcase />
     <Shows />
     <Movies />
-    <Ani />
     <Plans />
     <Faq />
 

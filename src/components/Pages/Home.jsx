@@ -7,7 +7,7 @@ import Faq from '../Faq/Faq';
 import Plans from '../Plans/Plans';
 import Footer from '../Footer/Footer';
 import Ani from '../Fish/Ani';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, Switch, Link} from 'react-router-dom';
 
 function Home() {
   return (

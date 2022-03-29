@@ -4,46 +4,48 @@ import './Plans.css';
 function Plans() {
   return (
     <div>
-              <h2>Our Plans</h2>
-        <div class="Pricing " >
-          <div class="Pricing-box1">
-              <h3>Starter</h3>
-              <h1><span> Rs. 149</span> / month</h1>
-              <ul>
-              <li>FHD Shortfilms And Kids TV</li>
-              <li>Animated Movies</li>
-              <li>Add Free</li>
-              <li>Login with 2 Devices</li>
-              <li>Download In Your Devices</li>
-              </ul>
-              <a href='#'><button class="btn">Buy Now</button></a>
-
-          </div>
-          <div class="Pricing-box2">
-          <h3>Advanced</h3>
-              <h1><span> Rs. 349</span> / 3 months</h1>
-              <ul>
-              <li>FHD Shortfilms And Kids TV</li>
-              <li>Animated Movies</li>
-              <li>Add Free</li>
-              <li>Login with 3 Devices</li>
-              <li>Download In Your Devices</li>
-              </ul>
-              <a href='#'><button class="btn">Buy Now</button></a>
-          </div>
-          <div class="Pricing-box1">
-          <h3>Premium</h3>
-              <h1><span> Rs. 549</span> / 4 Months</h1>
-              <ul>
-              <li>FHD Shortfilms And Kids TV</li>
-              <li>Animated Movies</li>
-              <li>Add Free</li>
-              <li>Login with 5 Devices</li>
-              <li>Download In Your Devices</li>
-              </ul>
-              <a href='#'><button class="btn">Buy Now</button></a>
-          </div>
-        </div>
+<div class="background">
+  <div class="container">
+    <div class="panel pricing-table">
+      
+      <div class="pricing-plan">
+        <img src="basic.png" width="200px" alt="" class="pricing-img"></img>
+        <h2 class="pricing-header">BASIC</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item"> Including Ads</li>
+          <li class="pricing-features-item">Watch Our Free Movies And Shows</li>
+        </ul>
+        <span class="pricing-price">Free</span>
+        <a href="#/" class="pricing-button">Sign up</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="advanced.png" width="200px" alt="" class="pricing-img"></img>
+        <h2 class="pricing-header">Advanced</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Ad Free /2 month</li>
+          <li class="pricing-features-item">Watch All Our Premium Shows And Movies</li>
+          <li class="pricing-features-item">Use Your Account With 2 Different Devices</li>
+        </ul>
+        <span class="pricing-price">$150</span>
+        <a href="#/" class="pricing-button is-featured">Free trial</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="premium.png" width="200px" alt="" class="pricing-img"></img>
+        <h2 class="pricing-header">Premium (popular)</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Ad free /6 months</li>
+          <li class="pricing-features-item">Enjoy All our Shows and Movies </li>
+          <li class="pricing-features-item">Use your Account With 5 Different Devices</li>
+        </ul>
+        <span class="pricing-price">$400</span>
+        <a href="#/" class="pricing-button">Free trial</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
     </div>
     )
  }

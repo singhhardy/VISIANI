@@ -22,6 +22,10 @@
     text-transform: uppercase;
 }
 
+a{
+    text-decoration: none;
+}
+
 .Movie p{
     font-size: 20px;
     text-align: right;

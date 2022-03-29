@@ -5,13 +5,14 @@ import Shows from '../Shows/Shows';
 import Movies from '../Movies/Movies';
 import Faq from '../Faq/Faq';
 import Footer from '../Footer/Footer';
+import Contactus from '../Contactus.jsx/Contactus';
 import {BrowserRouter as Router, Route, Routes, Switch, Link} from 'react-router-dom';
 
 
 export default function Contact() {
   return (
     <div>
-        <Faq />
+      <Contactus />
     </div>
   )
 }

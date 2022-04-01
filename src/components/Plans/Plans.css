@@ -15,7 +15,7 @@ html {
   .background::after {
     content: '';
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(253,211,0,1) 0%, rgba(253,211,96,1) 61%);    height: 350px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(187, 0, 171) 0%, rgb(133, 0, 241) 61%);    height: 350px;
     left: 0;
     position: absolute;
     top: 0;

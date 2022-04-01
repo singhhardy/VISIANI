@@ -8,12 +8,12 @@ import Plans from '../Plans/Plans';
 import Footer from '../Footer/Footer';
 import Ani from '../Fish/Ani';
 import Testimonials from '../Testimonials/Testimonials';
+import Appdownload from '../Appdownload/Appdownload';
 import {BrowserRouter as Router, Route, Routes, Switch, Link} from 'react-router-dom';
 
 function Home() {
   return (
     <div className="app">
-
     <Navbar />
     <Showcase />
     <Shows />
@@ -21,6 +21,7 @@ function Home() {
     <Plans />
     <Faq />
     <Testimonials />
+    <Appdownload />
     <Footer />
 
     </div>

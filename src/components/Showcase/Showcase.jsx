@@ -17,11 +17,11 @@ function Showcase() {
             consequat.</p>
             <a href="#">Explore</a>
             </div>
-            <ul class="social">
-            <li><a href="#"><img src="./ig.png" width="40px"></img></a></li>
-            <li><a href="#"><img src="./linkedin.png" width="55px"></img></a></li>
-            <li><a href="#"><img src="./youtube.png" width="55px"></img></a></li>
-            </ul>
+            {/* <ul class="social">
+            <li><a href="https://www.instagram.com/visianistudios/" target="_blank"><img src="./ig.png" width="40px"></img></a></li>
+            <li><a href="https://www.linkedin.com/in/visiani-studios-00828b235/"><img src="./linkedin.png" width="55px"></img></a></li>
+            <li><a href="https://www.youtube.com/channel/UCGiqufRusa67eJ54Yeo09xg"><img src="./youtube.png" width="55px"></img></a></li>
+            </ul> */}
         </section>
     </div>
 

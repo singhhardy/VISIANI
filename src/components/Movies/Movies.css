@@ -85,6 +85,7 @@ button:hover{
 
     .Movie{
         align-items: center;
+        text-align: center;
     }
 
 
@@ -92,9 +93,16 @@ button:hover{
         text-align: center;
     }
 
+    .Movie p{
+        text-align: center;
+    }
+
     .btn1{
         float: none;
         align-items: center;
+    }
+    .Movievideo-container{
+        margin-bottom: 25%;
     }
 }
 

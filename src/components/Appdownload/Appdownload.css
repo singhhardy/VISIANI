@@ -24,6 +24,7 @@
     width: 35%;
     margin: 1em auto;
     display: block;
+    text-align: center;
   }
   
   .news-app-promo-text__tagline {
@@ -33,6 +34,7 @@
   .news-app-promo-text__download {
     font-size: 2.25em;
     font-weight: 600;
+    color: #fdd300;
   }
   
   .news-app-promo-buttons {

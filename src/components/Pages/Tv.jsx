@@ -11,7 +11,6 @@ function Home() {
 
     <Navbar />
     <Tvslider />
-    <Shows />
     <Footer />
 
     </div>

@@ -1,9 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import Showcase from '../Showcase/Showcase';
-import Shows from '../Shows/Shows';
-import Movies from '../Movies/Movies';
-import Faq from '../Faq/Faq';
+import Services from '../Services/Services';
 import Footer from '../Footer/Footer';
 import {BrowserRouter as Router, Route, Routes, Switch, Link} from 'react-router-dom';
 
@@ -12,6 +9,7 @@ function Home() {
     <div className="app">
 
     <Navbar />
+    <Services />
     <Footer />
 
     </div>

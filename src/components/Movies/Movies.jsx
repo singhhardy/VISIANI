@@ -14,7 +14,7 @@ function Movies() {
             <a href='/Tv'><button class="btn1">Watch Now</button></a>
           </div>
           <div class="Movievideo-container">
-          <video src='./movievid.mp4' autoPlay loop muted width='400px'></video>
+          <video src='./movievid.mp4' autoPlay loop playsInline muted width='400px'></video>
           </div>
         </div>
         

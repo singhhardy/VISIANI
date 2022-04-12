@@ -5,7 +5,7 @@ function Shows() {
     <div>
       <div class="show-container">
       <div class="video-container">
-          <video src='./showsvid.mp4' autoPlay loop muted width='400px'></video>
+          <video src='./showsvid.mp4' autoPlay loop playsInline muted width='400px'></video>
           </div>
           <div class="Shows">
             <h1>ENJOY OUR SHOWS</h1>

@@ -11,10 +11,8 @@ function Showcase() {
             <div class="text">
             <h2>WE RENDER YOUR VISIONS</h2> 
             <h3>AT "VISIANI"</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+            <p>Everybody has a story to tell and what nicer way to tell your story than in the form of Animation. Whether you are and individual who wants to convey a message or you have
+               a brand that needs to showcase its vision? Aspire Animations is for you.</p>
             <a href="Tv" >Explore</a>
             </div>
             {/* <ul class="social">

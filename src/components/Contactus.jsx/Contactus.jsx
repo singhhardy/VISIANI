@@ -5,7 +5,7 @@ import './Contactus.css';
 function Contactus() {
   return (
       <div>
-          <section class="showcase">
+          <section class="Contact">
             <video src='./contact.mp4' autoPlay playsInline muted loop></video>
             <div class="con">
             <form>

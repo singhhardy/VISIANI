@@ -6,7 +6,7 @@
     align-items: center;
     margin-top: 5px;
     height: 400px;
-    padding: 20% 5%;
+    padding: 15% 5%;
 }
 
 .Shows{
@@ -77,9 +77,13 @@ button:hover{
 
 
 @media (max-width: 720px) {
+    .video-container{
+    }
+
     .video-container video {
         width: 300px;
     }
+
 }
 
 @media (max-width: 1400px) {

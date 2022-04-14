@@ -5,7 +5,7 @@ import './Contactus.css';
 function Contactus() {
   return (
       <div>
-          <section class="Contact">
+        <section class="showcase">
             <video src='./contact.mp4' autoPlay playsInline muted loop></video>
             <div class="con">
             <form>
@@ -21,13 +21,15 @@ function Contactus() {
             </div>
             <ul class="social">
             <li><a href="https://www.instagram.com/visianistudios/" target="_blank"><img src="./ig.png" width="40px"></img></a></li>
-            <li><a href="https://www.linkedin.com/in/visiani-studios-00828b235/" target="_blank"><img src="./linkedin.png" width="55px"></img></a></li>
-            <li><a href="https://www.youtube.com/channel/UCGiqufRusa67eJ54Yeo09xg" target="_blank"><img src="./youtube.png" width="70px"></img></a></li>
+            <li><a href="https://www.linkedin.com/in/visiani-studios-00828b235/"><img src="./linkedin.png" width="55px"></img></a></li>
+            <li><a href="https://www.youtube.com/channel/UCGiqufRusa67eJ54Yeo09xg"><img src="./youtube.png" width="55px"></img></a></li>
             </ul> 
         </section>
 
       </div>
   )
 }
+
+
 
 export default Contactus

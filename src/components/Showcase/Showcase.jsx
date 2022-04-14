@@ -6,7 +6,7 @@ function Showcase() {
   return (
     <div>
         <section class="showcase">
-            <video src='./showcase.mp4' autoPlay playsInline muted loop></video>
+            <video src='./showcaseB.mp4' autoPlay playsInline muted loop></video>
             <div class="overlay"></div>
             <div class="text">
             <h2>WE RENDER YOUR VISIONS</h2> 

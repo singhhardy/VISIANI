@@ -12,7 +12,7 @@ function Showcase() {
             <h2>WE RENDER YOUR VISIONS</h2> 
             <h3>AT "VISIANI"</h3>
             <p>Everybody has a story to tell and what nicer way to tell your story than in the form of Animation. Whether you are and individual who wants to convey a message or you have
-               a brand that needs to showcase its vision? Aspire Animations is for you.</p>
+               a brand that needs to showcase its vision? VISIANI is for you.</p>
             <a href="Tv" >Explore</a>
             </div>
             {/* <ul class="social">
